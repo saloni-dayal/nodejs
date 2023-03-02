@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/hstyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Home</title>
+</head>
+<body>
+      <nav class="navbar sticky-top bg-primary navbar-expand-lg " data-bs-theme="dark">
+        <div class="container-fluid">
+            <div id="mySidenav" class="sidenav" style="background-color: white">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Attendance</a>
+                <a href="#">Taskbox</a>
+                <a href="#">Social</a>
+                <a href="#">Travel</a>
+              </div>
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+          <a class="navbar-brand" href="#" style="color:white; margin-left: 2%;"><b>HRBOX</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-bell"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="profile.html"><img class="profile" src="assets/img/pro.webp" width="20" height="20"></a>
+              </li>
+            </ul>            
+          </div>
+        </div>
+      </nav>
+<div class="welcome">
+    <h3 class="welcome-heading">Welcome, Saloni</h3>
+    <p class="welcome-para">finish tasks below and start your day</p>
+    <h6>Latest Notifications</h6>
+    <div class="card">
+        <div class="card-header task-topic" style="color: navy;background-color: #87a4c7; border-color: transparent;">
+          Task 1
+        </div>
+        <div class="card-body task-desc" style="border-color: transparent">
+          <blockquote class="blockquote mb-0">
+            <p id="card-p">Onboard 6 employees</p>
+            <!-- <footer class="blockquote-footer"></footer> -->
+          </blockquote>
+        </div>
+        <div class="card-header task-topic" style="color: navy;background-color: #87a4c7; border-color: transparent;">
+            Task 2
+          </div>
+          <div class="card-body task-desc" style="border-color: transparent">
+            <blockquote class="blockquote mb-0">
+              <p id="card-p">Finish responding to work emails from your boss</p>
+              <!-- <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer> -->
+            </blockquote>
+          </div>
+          <div class="card-header task-topic" style="color: navy;background-color: #87a4c7; border-color: transparent;">
+            Task 3
+          </div>
+          <div class="card-body task-desc" style="border-color: transparent">
+            <blockquote class="blockquote mb-0">
+              <p id="card-p">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <!-- <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer> -->
+            </blockquote>
+          </div>
+          
+      </div>
+
+</div>
+
+<div class="container text-center">
+    <div class="row">
+      <div class="col calendar">
+        <div id="calendar"></div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+      </div>
+      <div class="col game">
+        <h6>Task Progress</h6>
+        <br>
+        <label>Task 1</label>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 25%">25%</div>
+          </div>
+          <br>
+        <label>Task 2</label>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 79%">79%</div>
+          </div>
+          <br>
+        <label>Task 3</label>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-label="Example with label" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 67%">67%</div>
+          </div>
+          <br>
+        <label>Task 4</label>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 45%">45%</div>
+          </div>
+      </div>
+    </div>
+
+      
+
+    
+
+
+    <script src="https://kit.fontawesome.com/7b55b4da2f.js" crossorigin="anonymous"></script>
+    <script src ="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
