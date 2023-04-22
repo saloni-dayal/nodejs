@@ -1,0 +1,17 @@
+.navbar-brand img{
+    height: 33px;
+}
+
+.navbar-brand{
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav
+{
+    background-color: #0283FF;
+  color: white;
+}
+
+a{
+  color: white;
+}
