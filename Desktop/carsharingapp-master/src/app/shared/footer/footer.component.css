@@ -5,8 +5,8 @@ footer{
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: #0283FF;
-  color: white;
+  background-color: transparent;
+  /* color: white; */
 }
 
 a{
