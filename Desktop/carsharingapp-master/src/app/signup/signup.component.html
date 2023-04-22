@@ -1,0 +1,28 @@
+
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form>
+                    <!-- <p style="color: red;"> {{ displayMessage  }} </p> -->
+                    
+					<label for="chk" aria-hidden="true">Sign up</label>
+                    
+					<input type="text" class="form-control" name="txt" placeholder="User ID" [(ngModel)] = "signUpObj.userID" required="">
+					<input type="email" class="form-control" name="email" placeholder="Email" [(ngModel)]  = "signUpObj.email" required="">
+					<input type="password" class="form-control" name="pswd" placeholder="Password" [(ngModel)] ="signUpObj.password" required="">
+                    
+					<button (click)="onSignUp()" >Sign up</button>
+				</form>
+			</div>
+
+			<div class="login">
+				<form>
+					<label for="chk" aria-hidden="true">Login</label>
+					<input type="text" class="form-control" name="txt" placeholder="User ID" [(ngModel)]  = "loginObj.userID" required="">
+					<input type="password" class="form-control" name="pswd" placeholder="Password" [(ngModel)] ="loginObj.password" required="">
+					<button (click)="onLogin()" >Login</button>
+				</form>
+			</div>
+	</div>
+
