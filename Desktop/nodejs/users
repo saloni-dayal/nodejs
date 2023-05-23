@@ -1,0 +1,51 @@
+[
+  {
+    "name": "likitha",
+    "password": "12345",
+    "mail": "likitha@gmail.com",
+    "username": "likitha29",
+    "address": "AndhraPradesh",
+    "islogged": false
+  },
+  {
+    "name": "likitha",
+    "password": "12345",
+    "mail": "likiha2911@gmail.com",
+    "username": "likitrha11",
+    "address": "AndhraPradesh",
+    "islogged": false
+  },
+  {
+    "name": "lalitha",
+    "password": "12345",
+    "mail": "lalitha1@gmail.com",
+    "username": "likitha29",
+    "address": "Hyderabad",
+    "islogged": false
+  },
+  {
+    "name": "lalitha29",
+    "password": "12345",
+    "mail": "lalitha2911@gmail.com",
+    "username": "likitrha11",
+    "address": "AndhraPradesh",
+    "islogged": false
+  },
+  {
+    "name": "Lokesh",
+    "password": "Lokesh@29",
+    "mail": "lokesh@gmail.com",
+    "username": "lokesh29",
+    "address": "Nellore",
+    "islogged": false
+  },
+  {
+    "name": "Mahima",
+    "password": "Mahima@28",
+    "mail": "Mahima@gmail.com",
+    "username": "Mahima2812",
+    "address": "Kadapa",
+    "islogged": false
+  }
+]
+
